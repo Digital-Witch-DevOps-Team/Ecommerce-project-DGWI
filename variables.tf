@@ -8,14 +8,14 @@ variable "aws_region" {
 variable "cluster_name" {
   description = "Name of the EKS cluster; also used as a prefix for related resources"
   type        = string
-  default     = "smartcloud-eks"
+  default     = "thankgodntem-eks"
 }
 
 # ---- Networking ----
 variable "vpc_name" {
   description = "Name tag of the VPC"
   type        = string
-  default     = "smartcloud-vpc"
+  default     = "thankgodntem-eks-vpc"
 }
 
 variable "vpc_cidr" {
